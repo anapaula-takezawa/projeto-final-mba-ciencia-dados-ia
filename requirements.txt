@@ -1,1 +1,10 @@
-
+pandas
+numpy
+matplotlib
+scikit-learn
+xgboost
+lightgbm
+optuna
+shap
+scipy
+tqdm
