@@ -2,6 +2,16 @@
 
 ## Predição do Risco de Incêndios Florestais utilizando Machine Learning
 
+**MBA:** Ciência de Dados e Inteligência Artificial
+
+**Instituição:** TripleTen
+
+**Linguagem:** Python
+
+**Modelo Final:** XGBoost Otimizado
+
+**Status:** ✅ Projeto Concluído
+
 ## 📖 Sobre o Projeto
 
 Este projeto foi desenvolvido como trabalho de conclusão do **MBA em Ciência de Dados e Inteligência Artificial**.
@@ -35,6 +45,16 @@ O projeto utilizou quatro bases públicas:
 - 🌱 Base MapBiomas
 
 As bases foram integradas por meio de informações temporais e geográficas, formando uma base única utilizada na modelagem.
+
+# 🌎 Fontes de Dados
+
+As bases utilizadas neste projeto são públicas e podem ser obtidas nas seguintes fontes oficiais:
+
+- **Programa Queimadas (INPE)** – Dados de focos de calor e queimadas no Brasil.
+- **BDMEP / INMET** – Banco de Dados Meteorológicos para Ensino e Pesquisa.
+- **MapBiomas** – Coleção de uso e cobertura da terra no Brasil.
+
+> **Observação:** As bases originais não foram incluídas neste repositório devido ao seu grande volume de dados. Todas podem ser obtidas diretamente em suas respectivas fontes oficiais.
 
 # ⚙️ Tecnologias Utilizadas
 
@@ -132,6 +152,22 @@ projeto-final-mba-ciencia-dados-ia/
 - Otimização de Hiperparâmetros
 - Feature Importance
 - Avaliação de Impacto no Negócio
+
+# 📌 Principais Conclusões
+
+Ao longo do desenvolvimento deste projeto foi possível construir uma pipeline completa de Machine Learning, desde a integração e preparação das bases de dados até a construção e otimização do modelo preditivo.
+
+Os principais resultados obtidos foram:
+
+- Integração de quatro bases públicas distintas relacionadas a queimadas, meteorologia e uso do solo.
+- Desenvolvimento de modelos preditivos para classificação do nível de risco de incêndios.
+- Comparação entre diferentes algoritmos de Machine Learning.
+- Seleção do modelo **XGBoost** como melhor alternativa para o problema.
+- Otimização dos hiperparâmetros utilizando **RandomizedSearchCV** e **Optuna**.
+- Interpretação do modelo por meio da importância das variáveis.
+- Conversão das métricas técnicas em indicadores de negócio através da estimativa de impacto financeiro.
+
+O projeto demonstra como técnicas de Ciência de Dados e Inteligência Artificial podem auxiliar gestores na prevenção e monitoramento de incêndios florestais, contribuindo para uma tomada de decisão mais eficiente e baseada em dados.
 
 # 👩‍💻 Autora
 
