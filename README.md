@@ -10,13 +10,9 @@ O objetivo foi construir uma **pipeline completa de Machine Learning**, desde a 
 
 Durante o desenvolvimento foram aplicadas técnicas de engenharia de dados, engenharia de atributos, análise exploratória, testes estatísticos, otimização de hiperparâmetros e interpretação de modelos, buscando produzir uma solução robusta e orientada ao problema de negócio.
 
----
-
 # 🎯 Objetivo
 
 Desenvolver um modelo de Machine Learning capaz de prever o nível de risco de incêndios florestais a partir da integração de informações provenientes de diferentes bases públicas, auxiliando gestores na tomada de decisão sobre ações preventivas e alocação de recursos.
-
----
 
 # 💼 Problema de Negócio
 
@@ -29,8 +25,6 @@ A utilização de modelos preditivos permite antecipar regiões com maior probab
 - melhor distribuição de equipes de fiscalização;
 - apoio à tomada de decisão baseada em dados.
 
----
-
 # 📊 Bases de Dados
 
 O projeto utilizou quatro bases públicas:
@@ -41,8 +35,6 @@ O projeto utilizou quatro bases públicas:
 - 🌱 Base MapBiomas
 
 As bases foram integradas por meio de informações temporais e geográficas, formando uma base única utilizada na modelagem.
-
----
 
 # ⚙️ Tecnologias Utilizadas
 
@@ -56,8 +48,6 @@ As bases foram integradas por meio de informações temporais e geográficas, fo
 - Optuna
 - SHAP
 - Google Colab
-
----
 
 # 🔄 Pipeline do Projeto
 
@@ -88,8 +78,6 @@ Foram treinados e comparados os seguintes algoritmos:
 
 O modelo **XGBoost** apresentou o melhor desempenho e foi selecionado para otimização.
 
----
-
 # 📈 Otimização
 
 Foram comparadas duas estratégias de otimização de hiperparâmetros:
@@ -99,13 +87,11 @@ Foram comparadas duas estratégias de otimização de hiperparâmetros:
 
 Após a comparação dos resultados, o **RandomizedSearchCV** apresentou desempenho ligeiramente superior para este conjunto de dados e foi mantido como modelo final.
 
----
-
 # 📊 Principais Resultados
 
 Modelo final:
 
-- **XGBoost Otimizado**
+**XGBoost Otimizado**
 
 Resultados obtidos:
 
@@ -116,11 +102,8 @@ Resultados obtidos:
 
 Além das métricas tradicionais, foi realizado um cálculo ilustrativo de impacto demonstrando como o desempenho do modelo pode ser convertido em indicadores financeiros para apoio à tomada de decisão.
 
----
-
 # 📂 Estrutura do Repositório
 
-```
 projeto-final-mba-ciencia-dados-ia/
 
 │
@@ -130,9 +113,6 @@ projeto-final-mba-ciencia-dados-ia/
 ├── Relatorios/
 ├── README.md
 └── .gitignore
-```
-
----
 
 # 🚀 Como Executar
 
@@ -140,8 +120,6 @@ projeto-final-mba-ciencia-dados-ia/
 2. Abra o notebook utilizando Jupyter Notebook ou Google Colab.
 3. Instale as dependências necessárias.
 4. Execute as células na ordem apresentada.
-
----
 
 # 📚 Principais Técnicas Aplicadas
 
@@ -154,8 +132,6 @@ projeto-final-mba-ciencia-dados-ia/
 - Otimização de Hiperparâmetros
 - Feature Importance
 - Avaliação de Impacto no Negócio
-
----
 
 # 👩‍💻 Autora
 
